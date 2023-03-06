@@ -77,7 +77,7 @@ namespace TDDTest
         [InlineData("//#\n1010\n12#1", 13)]
         [InlineData("//a\n1233a3,1", 4)]
         [InlineData("//$\n2000$2345", 0)]
-        [InlineData("//\n2000\n2345", 0)]
+        [InlineData("//\n2000\n2345", 20)]
 
         public void hashfun(string str, int expectedValue)
         {
